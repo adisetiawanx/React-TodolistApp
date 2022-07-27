@@ -1,11 +1,11 @@
-import TodoList from "./TodoList";
+import TodoItem from "./TodoItem";
 
 const Todo = (props) => {
   return (
     <div className="m-4 text-center">
       {props.todoData.length > 0 &&
         props.todoData.map((todo) => (
-          <TodoList
+          <TodoItem
             onDelTodo={props.onDelTodo}
             key={todo.id}
             id={todo.id}

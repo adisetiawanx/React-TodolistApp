@@ -14,7 +14,7 @@ const Input = (props) => {
     <form onSubmit={formHandler}>
       <div className="m-4">
         <label htmlFor="userInput" className="form-label">
-          New TodoList
+          New Todo
         </label>
         <input
           type="text"

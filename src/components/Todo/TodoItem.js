@@ -1,4 +1,4 @@
-const TodoList = (props) => {
+const TodoItem = (props) => {
   return (
     <div className="card mb-3">
       <div className="card-body flexbox">
@@ -17,4 +17,4 @@ const TodoList = (props) => {
   );
 };
 
-export default TodoList;
+export default TodoItem;
