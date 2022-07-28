@@ -6,6 +6,10 @@ const Input = (props) => {
 
   const formHandler = (event) => {
     event.preventDefault();
+    if (todoName.current.value.length === 0) {
+      props.onInvalid(true, "Please Type Something");
+      return;
+    }
     props.onAddTodo(todoName.current.value, todoImportant.current.checked);
     event.target.reset();
   };
@@ -21,6 +25,7 @@ const Input = (props) => {
           ref={todoName}
           className="form-control"
           id="userInput"
+          autoComplete="off"
         />
       </div>
       <div className="m-4">
@@ -30,8 +35,8 @@ const Input = (props) => {
           className="form-check-input"
           id="important"
         />
-        <label htmlFor="userInput" className="form-check-label ms-2">
-          Important
+        <label htmlFor="important" className="form-check-label ms-2">
+          is It Important?
         </label>
       </div>
       <button type="submit" className="btn btn-primary ms-4">
