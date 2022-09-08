@@ -8,6 +8,6 @@ A learn about:
 <li>UseRef</li>
 <li>Reusable Component</li>
 <li>Using Bootstrap to React</li>
-<li>Dan hal lainnya</li>
+<li>and others</li>
 <br>
 Live Demo : https://adisetiawanx.github.io/React-TodolistApp/
