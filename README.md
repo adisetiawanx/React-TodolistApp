@@ -1,9 +1,7 @@
 # React-TodolistApp
 Simple todo list app created using ReactJS
 
-Ini adalah website yang saya buat menggunakan framework ReactJS, saya membuat website ini untuk melatih pengetahuan saya tentang ReactJS.
-
-Di dalamnya saya melatih pengetahuan tentang
+A learn about:
 <li>Form Handling</li>
 <li>Props</li>
 <li>UseState</li>
@@ -13,5 +11,3 @@ Di dalamnya saya melatih pengetahuan tentang
 <li>Dan hal lainnya</li>
 <br>
 Live Demo : https://adisetiawanx.github.io/React-TodolistApp/
-<br>
-Untuk source code bisa dilihat di branch master
